@@ -1,7 +1,22 @@
 @import "tailwindcss";
-@import "tailwindcss/preflight";
-@tailwind utilities;
+
 /*
 @tailwind base;
 @tailwind components;
 */
+
+:root {
+  --customblue: rgb(214, 234, 254);
+}
+
+.text-customblue {
+  color: var(--customblue);
+}
+
+.bg-customblue {
+  background-color: var(--customblue);
+}
+
+.border-customblue {
+  border-color: var(--customblue);
+}
