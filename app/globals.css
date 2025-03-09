@@ -7,6 +7,14 @@
 
 :root {
   --customblue: rgb(214, 234, 254);
+  --customred: rgb(254, 104, 124);
+  --font-sans: "Geist", sans-serif;
+  --font-mono: "Geist Mono", monospace;
+  --font-korean: "Noto Sans KR", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
 }
 
 .text-customblue {
@@ -19,4 +27,16 @@
 
 .border-customblue {
   border-color: var(--customblue);
+}
+
+.text-customred {
+  color: var(--customred);
+}
+
+.bg-customred {
+  background-color: var(--customred);
+}
+
+.border-customred {
+  border-color: var(--customred);
 }
